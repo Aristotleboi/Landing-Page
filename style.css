@@ -124,3 +124,71 @@ h3 {
     color: #313131;
     font-size: 16px;
 }
+
+/*quote section */
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px 375px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0px 5px;
+    margin: 0px;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/*call to action */
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 300px;
+    padding: 60px 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    color: #f9faf8;
+    font-size: 28px;
+    margin: 0px;
+}
+
+.call-to-action p {
+    margin: 0px;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.call-to-action button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: #f9faf8 3px solid;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 4px 10px;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px 300px;
+    font-size: 22px;
+}
